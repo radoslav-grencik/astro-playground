@@ -1,0 +1,44 @@
+{
+  "name": "astro_playground",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^2.1.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^2.0.18",
+    "modern-css-reset": "^1.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@radoslav-grencik/eslint-config": "1.0.0",
+    "@radoslav-grencik/prettier-config": "^1.0.0",
+    "@total-typescript/ts-reset": "^0.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-astro": "^0.26.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.59.3",
+    "typescript": "^5.0.2"
+  },
+  "eslintConfig": {
+    "extends": "@radoslav-grencik/eslint-config"
+  },
+  "prettier": "@radoslav-grencik/prettier-config"
+}
